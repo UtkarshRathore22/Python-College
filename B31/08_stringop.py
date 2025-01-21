@@ -16,3 +16,5 @@ print("The substring starts from:",name.find(substring))
 #list.sort()=sorts in ascending
 #list.sort(reverse=True)=sorts in descending order
 #list.insert(index,value)=inserts value at addressed index
+#list.remove(value)=removes the first occurence of the value from the list
+#list.pop(index)=removes the value at the index
