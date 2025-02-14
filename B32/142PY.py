@@ -57,7 +57,18 @@ def fact():
      i -= 1
    print("The factorial of",num,"is",fact)
 
-
 fact()
 
 # %%
+def swapp(a,b):
+  a=a+b
+  b=a-b
+  a=a-b
+  print("The returned values are",a,"and",b)
+  return a,b
+
+a=int(input("Enter First Number:"))
+b=int(input("Enter second Number:"))
+swapp(a,b)
+
+print(swapp(a,b))
